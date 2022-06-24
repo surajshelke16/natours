@@ -7,7 +7,7 @@
     "main": false
   },
   "scripts": {
-    "start": "npm run build && node server.js",
+    "start": "npm run build:js && node server.js",
     "dev": "nodemon server.js",
     "start:prod": "SET NODE_ENV=production&& nodemon server.js",
     "debug": "ndb server.js",
@@ -26,6 +26,7 @@
     "express": "^4.17.3",
     "express-rate-limit": "^6.4.0",
     "helmet": "^3.23.3",
+    "heroku": "^7.60.2",
     "hpp": "^0.2.3",
     "html-to-text": "^8.2.0",
     "jsonwebtoken": "^8.5.1",
